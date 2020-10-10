@@ -1,0 +1,13 @@
+header {
+  background-image: url("https://images.unsplash.com/photo-1598619739474-52317f93c6a4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+}
+
+.head {
+  font-family: "Leckerli One", cursive;
+}
+.about-me {
+  background-image: url(https://res2.weblium.site/res/5dae995b993efb002638b1a5/5ddfc8b1da9be7002267a031_optimized_1396_c1396x930-0x0);
+}
+.about {
+  width: 100%;
+}

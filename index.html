@@ -1,0 +1,191 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <title>Mango Travel</title>
+  </head>
+
+  <body class="text-gray-600">
+    <header class="h-screen flex flex-col items-center py-4">
+      <img
+        class="mb-8"
+        src="https://res2.weblium.site/res/5de12fb6729cc50021f3b072/5de1643f4d236c0021f224b9_optimized"
+        alt=""
+      />
+
+      <ul class="flex justify-between text-white font-bold text-sm font-serif">
+        <li class="mx-10">
+          <a href="#">Tour </a>
+        </li>
+
+        <li class="mx-10">
+          <a href="#">Services </a>
+        </li>
+
+        <li class="mx-10">
+          <a href="#">About Us </a>
+
+          <!--not working why?-->
+        </li>
+        <li class="mx-10">
+          <a href="#">Team </a>
+        </li>
+        <li class="mx-10">
+          <a href="#">Testmonial </a>
+        </li>
+        <li class="mx-10">
+          <a href="#">Contacts </a>
+        </li>
+      </ul>
+      <h1 class="flex flex-col text-white font-bold m-10 mx-auto px-2">
+        <span class="head text-xl text-6xl">Mango Travel</span>
+        <span class="text-l">
+          Spectacular safari in: Tanzania, Kenya, Rwanda</span
+        >
+      </h1>
+    </header>
+
+    <div class="about-me flex pl-20">
+      <!-- flex-row  -->
+      <div>
+        <div>
+          <h1 class="about p-6 pt-10 text-4xl black-500 font-bold text-black">
+            About Us
+          </h1>
+          <span class="text-blue-400 text-4xl p-5 flex">...</span>
+        </div>
+
+        <div class="grid grid-cols-2 gap-10">
+          <!--girl continer -->
+          <div
+            class="mt-4 text-blue-400 sm:text-gray-600 pl-6 mr-40 h-screen flex-row"
+          >
+            It all started as a usual trip to Africa for a family with 2
+            children. But from the very first day of our trip we met prominent
+            people, great guides, drivers. We became friends and decided to
+            organize safari tours for other tourists as we already knew the best
+            spots, routes and people in Africa. So, Mango Tours is a joint
+            venture by Africans and Germans. We have designed routes, powerful
+            jeeps and the best guides who have been working with us for 5 years
+
+            <div class="pt-8">
+              <button
+                class="bg-blue-500 hover:bg-yellow-500 text-white font-bold rounded p-6 transition ease-out duration-500"
+              >
+                Learn more
+              </button>
+            </div>
+          </div>
+          <!-- <div class="pics">
+            <img
+              class="w-screen inline-block h-42"
+              src="https://res2.weblium.site/res/5dae995b993efb002638b1a5/5ddfc8b1da9be7002267a031_optimized_1396_c1396x930-0x0"
+              alt=""
+            />
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <!--end of gird container-->
+
+    <div class="bg-black">
+      <!-- section 3-->
+      <div class="flex justify-center">
+        <h1 class="text-4xl p-4 text-yellow-400">Our Tours</h1>
+        <span class="text-4xl p-4 text-yellow-400">...</span>
+      </div>
+      <div class="flex flex-cols-3 p-4 gap-10">
+        <!-- container for the three img divs-->
+
+        <div>
+          <!--img 1 div-->
+
+          <img
+            class=""
+            src="https://res2.weblium.site/res/5de102cdf13dbd0021b00e17/5de113a1a3f3d000214630e9_optimized_1396_c1396x930-0x0"
+            alt="elephant"
+          />
+          <h2 class="text-white font-bold text-2xl p-4">5 Days in Tanzania</h2>
+          <span
+            >From Serengeti to Ngorongoro, with nights in comfortable hotels and
+            breakfasts included.
+          </span>
+          <div class="pt-2">Departing: 9 Nov 2019</div>
+          <span class="text-yellow-400 pt-1">Cost: 4567, $4000 </span>
+          <div>
+            <button
+              class="hover:bg-white-500 text-white font-bold p-6 transition ease-out duration-300 cursor-pointer pt-2"
+            >
+              <!--class="py-2 px-3 text-sm font-bold cursor-pointer tracking-wider hover:bg-white-500 text-white transition ease-out duration-300 border-white border-2"-->
+              LEARN MORE
+            </button>
+          </div>
+        </div>
+
+        <div>
+          <!--img 2 div-->
+
+          <img
+            class=""
+            src="https://res2.weblium.site/res/5de102cdf13dbd0021b00e17/5de113bd1bf10600223cfa10_optimized_1399_c1399x929-0x0"
+            alt="Tree"
+          />
+          <h2 class="text-white font-bold text-2xl p-4">
+            Amazing week in Kenya
+          </h2>
+          <span
+            >Starting from Nairobi, we'll visit Maasai Mara, Lake Nakuru, Lake
+            Naivasha andHell’s Gate.
+          </span>
+          <div class="pt-2">Departing: 12 Jan 2020</div>
+          <span class="text-yellow-400">Cost: 4567, $4000 </span>
+          <div>
+            <button
+              class="hover:bg-white-500 text-white font-bold p-6 transition ease-out duration-300"
+            >
+              <!--class="py-2 px-3 text-sm font-bold cursor-pointer tracking-wider hover:bg-white-500 text-white transition ease-out duration-300 border-white border-2"-->
+              LEARN MORE
+            </button>
+          </div>
+        </div>
+
+        <div>
+          <!--img 3 div-->
+
+          <img
+            class=""
+            src="https://res2.weblium.site/res/5de102cdf13dbd0021b00e17/5de113ffa3f3d00021463121_optimized_1396_c1396x930-0x0"
+            alt="jungle"
+          />
+          <h2 class="text-white font-bold text-2xl p-4">5 Days in Tanzania</h2>
+          <span
+            >From Serengeti to Ngorongoro, with nights in comfortable hotels and
+            breakfasts included.
+          </span>
+          <div class="pt-2">Departing: 9 Nov 2019</div>
+          <span class="text-yellow-400">Cost: 4567, $4000 </span>
+          <div>
+            <button
+              class="hover:bg-white-500 text-white font-bold p-6 transition ease-out duration-300 cursor-pointer"
+            >
+              <!--class="py-2 px-3 text-sm font-bold cursor-pointer tracking-wider hover:bg-white-500 text-white transition ease-out duration-300 border-white border-2"-->
+              LEARN MORE
+            </button>
+          </div>
+        </div>
+      </div>
+      <!--end of container three img divs-->
+    </div>
+    <!--section 3 end-->
+  </body>
+</html>
