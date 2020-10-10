@@ -5,13 +5,15 @@ header {
 .head {
   font-family: "Leckerli One", cursive;
 }
-.about-me {
-  background-image: url(https://res2.weblium.site/res/5dae995b993efb002638b1a5/5ddfc8b1da9be7002267a031_optimized_1396_c1396x930-0x0);
-}
+
 .about {
   width: 100%;
 }
 
 .aliyah {
   max-width: 58%;
+}
+
+.aliyah2 {
+  max-width: 80%;
 }
